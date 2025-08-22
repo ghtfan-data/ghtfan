@@ -1,0 +1,13 @@
+{
+  "categories": [
+    {"id": 1, "name": "مأكولات", "icon": "utensils", "color": "#3498db"},
+    {"id": 2, "name": "مشروبات", "icon": "glass-cheers", "color": "#e74c3c"},
+    {"id": 3, "name": "منظفات", "icon": "spray-can", "color": "#2ecc71"}
+  ],
+  "products": [
+    {"id": 1, "name": "خبز", "categoryId": 1, "expiryDays": 3, "icon": "bread-slice"},
+    {"id": 2, "name": "لبن", "categoryId": 1, "expiryDays": 7, "icon": "blender"},
+    {"id": 3, "name": "عصير", "categoryId": 2, "expiryDays": 30, "icon": "wine-bottle"},
+    {"id": 4, "name": "منظف", "categoryId": 3, "expiryDays": 365, "icon": "soap"}
+  ]
+}
